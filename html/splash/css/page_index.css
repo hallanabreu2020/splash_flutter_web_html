@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+
+
+.row img{
+    width: 100px;
+}
+
+.banner{
+    background-image: url("../img/background.png");
+    height: 650px;
+}
+
+.rowBanner{
+    display: flex;
+}
+
+.columnText{
+    flex: 1;
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+}
+
+.columnText h1{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 81.6px;
+    line-height: 102px;
+    color: #EB4A4B;
+}
+
+.columnText h3{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 57px;    
+    color: #FFFFFF;
+}
+
+.columnText h2{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 57px;    
+    color: #FFFFFF;
+}
+
+.columnText h6{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.4899px;
+    line-height: 32px;    
+    color: #808DAD;
+    padding: 15px 0;
+}
+
+.columnText button{
+    width: 139px;
+    height: 42px;
+    background: rgba(128, 141, 173, 0.11);
+    border: 1.63184px solid #EB4A4B;
+    border-radius: 8px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    color: #EB4A4B;
+    cursor: pointer;
+}
+
+.columnImg{
+    flex: 1;    
+    text-align: center;
+}
+
+.columnImg img{
+    width: 400px;
+}
+
